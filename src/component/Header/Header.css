@@ -1,0 +1,32 @@
+.header-img {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.header-img img {
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Default text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds shadow for readability */
+}
+
+.header-text h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header-text p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0;
+}
